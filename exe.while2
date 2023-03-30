@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+    
+    int i = 1, numerox;
+
+    while (i<= 5)
+    {
+        i++;
+        printf ("valor que deseja: ");
+        scanf ("%d", & numerox);
+            if (numerox % 2 == 0)
+            {
+                printf ( "esse numero e par: %d \n", numerox);
+            } else{
+                printf ("esse numero e impar: %d \n", numerox);
+            }
+            
+            
+    }
+    
+}
